@@ -1,9 +1,9 @@
 import './App.css';
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
 } from "react-router-dom";
 import Home from './components/Home';
 import Contact from './components/Contact'
@@ -14,7 +14,7 @@ function App() {
       <Router>
         <div className="header">
           <div className="logo">
-            Taimoor <br /> Shahzada
+            Greensock GSAP
           </div>
           <ul>
             <li>
@@ -32,11 +32,11 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          
+
           <Route path="/contact">
             <Contact />
           </Route>
-          
+
           <Route path="/">
             <Home />
           </Route>
